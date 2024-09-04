@@ -88,8 +88,8 @@ main {
 }
 
 .grid-item {
-    background-color: white;
-    border: 1px solid #ddd;
+    background-color: rgb(116, 204, 255);
+    border: 1px solid #000000;
     border-radius: 8px;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
