@@ -43,3 +43,65 @@ main {
   body {
     background-color: #aca9ff; /* Change this to your preferred color */
   }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5; /* Background color for the whole page */
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Grid container styles */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px; /* Space between grid items */
+    max-width: 1200px; /* Maximum width of the grid container */
+    margin: 0 auto;
+}
+
+.grid-item {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.grid-item a {
+    color: #333;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.grid-item a:hover {
+    color: #007bff; /* Change link color on hover */
+}
