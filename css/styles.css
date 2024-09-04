@@ -39,6 +39,7 @@ main {
 .banner {
     text-align: center;
 }
-body {
-    background: linear-gradient(to bottom, #000000, #aca9ff); /* Adjust the colors as needed */
+
+  body {
+    background-color: #aca9ff; /* Change this to your preferred color */
   }
