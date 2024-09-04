@@ -105,3 +105,6 @@ main {
 .grid-item a:hover {
     color: #007bff; /* Change link color on hover */
 }
+body {
+    background-color: #95efff; /* Change this to your preferred color */
+  }
