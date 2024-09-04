@@ -5,7 +5,7 @@ body {
 }
 
 header {
-    background: #ffa3f1;
+    background: #000000;
     color: #000000;
     padding: 10px 0;
 }
@@ -40,5 +40,5 @@ main {
     text-align: center;
 }
 body {
-    background: linear-gradient(to right, #000000, #aca9ff); /* Adjust the colors as needed */
+    background: linear-gradient(to bottom, #000000, #aca9ff); /* Adjust the colors as needed */
   }
