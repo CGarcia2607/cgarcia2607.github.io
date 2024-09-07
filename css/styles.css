@@ -108,3 +108,19 @@ main {
 body {
     background-color: #95efff; /* Change this to your preferred color */
   }
+  .content-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content-container p {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.content-container img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+}
