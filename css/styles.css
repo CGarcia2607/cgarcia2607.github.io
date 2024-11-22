@@ -124,3 +124,9 @@ body {
     height: auto;
     border: 1px solid #ccc;
 }
+img {
+    width: 50%; /* Shrinks the images to 50% */
+    max-width: 300px; /* Ensures no image exceeds 300px */
+    height: auto; /* Maintains aspect ratio */
+    margin: 10px auto; /* Centers images */
+}
